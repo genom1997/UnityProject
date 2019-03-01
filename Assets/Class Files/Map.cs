@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-
 //abstract map class that can be saved
 [Serializable]
 public class Map
@@ -54,8 +53,9 @@ public class Map
         get { return map; }
         set { map = value; }
     }
-    public MapTile tile(int i, int j) {
-        return map[i,j];
+    public MapTile tile(int i, int j)
+    {
+        return map[i, j];
     }
     public string mapProperties()
     {
@@ -67,6 +67,6 @@ public class Map
                 description += map[i, j].mapTileProperties();
             }
         }
-                return ("Description = " + description + "\n Name = " + Name );
+        return ("Description = " + description + "\n Name = " + Name);
     }
 }

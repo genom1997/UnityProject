@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 /// <summary>
 /// Gamemanager object that persists accross scenes and stores the map and player objects.
 /// </summary>

@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{4336CE02-E26C-81EF-7AC5-A7E710412AA7}</ProjectGuid>
+    <ProjectGuid>{C9589AB6-A21B-ABC3-F434-DBE9E2DB8A15}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\CombatManager.cs" />
     <Compile Include="Assets\Scripts\CreateCharacter.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameManager2.cs" />
     <Compile Include="Assets\Scripts\Holder.cs" />
     <Compile Include="Assets\Scripts\LoadSave.cs" />
     <Compile Include="Assets\Scripts\LocalMapRenderer.cs" />
@@ -83,16 +84,16 @@
     <Compile Include="Assets\Scripts\UnitTileHolder.cs" />
     <None Include="Assets\Docs\readmeText.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/GenoMcLongDick/Documents/AI Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/GenoMcLongDick/Documents/OmniQuest/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/GenoMcLongDick/Documents/AI Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/GenoMcLongDick/Documents/OmniQuest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/GenoMcLongDick/Documents/AI Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/GenoMcLongDick/Documents/OmniQuest/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/GenoMcLongDick/Documents/AI Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/GenoMcLongDick/Documents/OmniQuest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
